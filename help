@@ -1,0 +1,14 @@
+Testing ports
+
+Listing ports
+python -m serial.tools.list_ports will print a list of available ports. 
+It is also possible to add a regexp as first argument and the list will 
+only include entries that matched.
+
+Note The enumeration may not work on all operating systems. It may be incomplete,
+list unavailable ports or may lack detailed descriptions of the ports.
+
+Accessing ports¶
+pySerial includes a small console based terminal program called serial.tools.miniterm. 
+It ca be started with python -m serial.tools.miniterm <port_name>
+(use option -h to get a listing of all options).
