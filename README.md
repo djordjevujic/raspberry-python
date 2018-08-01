@@ -1,3 +1,3 @@
-# raspberry-python
+# uart-python-linux
 
 necessarily check baud rates!
